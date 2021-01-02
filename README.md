@@ -34,6 +34,6 @@ En revanche, voici les codes python et sql utilisé dans ce projet :
 
 * [Insertion des données des fichiers sur les tables SQL](https://github.com/ThibaultLanthiez/Projet-observatoire-UNICAEN/tree/main/Codes/Files%20to%20SQL)
 
-* [Création des cartes](https://github.com/ThibaultLanthiez/Projet-observatoire-UNICAEN/tree/main/Codes/Cr%C3%A9ation%20des%20cartes)
+* [Correction des données avec la distance de Levenshtein](https://github.com/ThibaultLanthiez/Projet-observatoire-UNICAEN/blob/main/Codes/Algorithme_Levenshtein.py)
 
-[Lien Google Drive](https://drive.google.com/drive/u/0/folders/1Bxr0rauNXz7VsVXgN70zaj1dnx60WF-8)
+* [Création des cartes](https://github.com/ThibaultLanthiez/Projet-observatoire-UNICAEN/tree/main/Codes/Cr%C3%A9ation%20des%20cartes)

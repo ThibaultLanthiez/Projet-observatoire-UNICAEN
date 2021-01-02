@@ -32,6 +32,8 @@ En revanche, voici les codes python et sql utilisé dans ce projet :
 
 * [DDL des tables SQL](https://github.com/ThibaultLanthiez/Projet-observatoire-UNICAEN/blob/main/Codes/DDL-SQL.sql)
 
+* [Insertion des données des fichiers sur les tables SQL](https://github.com/ThibaultLanthiez/Projet-observatoire-UNICAEN/tree/main/Codes/Files%20to%20SQL)
+
 
 
 [Lien Google Drive](https://drive.google.com/drive/u/0/folders/1Bxr0rauNXz7VsVXgN70zaj1dnx60WF-8)

@@ -16,10 +16,18 @@ L'observatoire UNICAEN souhaite aussi que l'on représente à l'aide de graphiqu
 
 Maintenant que l'on avait bien tous les noms de ville, de département et d'entreprise, il nous restait plus qu'à trouver les latitudes et la longitudes correspondantes. Pour cela, nous avons télécharger sur le site [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/listes-des-communes-geolocalisees-par-regions-departements-circonscriptions-nd/) un fichier avec les latitudes et la longitudes de toutes les communes de France (identifiées par leur noms et celui dans leur département). En utilisant à novueau la distance de Levenshtein, nous avons pu maximiser le nombre des correspondances entre le fichier des communes et les données des diplomés précédemment corrigées.
 
-Enfin, nous avons représenté sur une carte au format html avec du code [JavaScipt](https://leafletjs.com/) la grande majorité des lieux de travail des diplomés et le nom de l'entreprise correspondante.
+Enfin, nous avons représenté sur une carte au format html avec du code [JavaScript](https://leafletjs.com/) la grande majorité des lieux de travail des diplomés et le nom de l'entreprise correspondante.
 
 ### À noter
 
 Nous avons inséré toutes les données dans une base de données relationnelle pour accélérer le temps de calcul et de comparaison entre les différents fichier de données.
+
+# Code 
+
+Pour des raisons de confidentialité, les deux cartes (pour les diplômes de master et de licence), ne vous sont pas montrées. 
+
+En revanche, voici les codes python et sql utilisé dans ce projet.
+
+
 
 [Lien Google Drive](https://drive.google.com/drive/u/0/folders/1Bxr0rauNXz7VsVXgN70zaj1dnx60WF-8)

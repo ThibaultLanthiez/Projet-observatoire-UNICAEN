@@ -28,7 +28,9 @@ Nous avons inséré toutes les données dans une base de données relationnelle 
 
 Pour des raisons de confidentialité, les deux cartes (pour les diplômes de master et de licence), ne vous sont pas montrées. 
 
-En revanche, voici les codes python et sql utilisé dans ce projet.
+En revanche, voici les codes python et sql utilisé dans ce projet :
+
+* [DDL des tables SQL](https://github.com/ThibaultLanthiez/Projet-observatoire-UNICAEN/blob/main/Codes/DDL-SQL.sql)
 
 
 

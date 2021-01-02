@@ -1,5 +1,7 @@
 [:arrow_left: Retour vers le portfolio](https://github.com/ThibaultLanthiez/Portfolio)
 
+<img src="https://borea.mnhn.fr/sites/default/files/styles/large/public/Logo%20UNICAEN%20V1-noir.png?itok=J3rUaLBD" width="20%" and height="20%"/>
+
 # Projet tutoré pour l'Université de Caen
 
 L'observatoire UNICAEN réalise des enquêtes sur les parcours de formation et l'insertion professionnelle des étudiants de l'université de Caen. Ils avaient besoin de 4 étudiants pour les aider sur une de leurs missions. Ils ont donc contacté mon IUT pour savoir si des étudiants pouvait les aider. Mon professeur principal a directement pensé à moi étant donné que j'étais le major de la promotion. J'ai accepté et j'ai demandé à certains de mes camarades de m'accompagné sur ce projet. 

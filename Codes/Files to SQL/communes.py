@@ -3,6 +3,7 @@ import csv
 
 conn = sqlite3.connect('data.db')
 c= conn.cursor()
+
 with open('villes_france.csv', newline='') as csvfile:
     csvfile.readline()
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='\"')

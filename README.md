@@ -1,6 +1,6 @@
 [:arrow_left: Retour vers le portfolio](https://github.com/ThibaultLanthiez/Portfolio)
 
-<img src="https://borea.mnhn.fr/sites/default/files/styles/large/public/Logo%20UNICAEN%20V1-noir.png?itok=J3rUaLBD" width="20%" and height="20%"/>
+<img src="https://borea.mnhn.fr/sites/default/files/styles/large/public/Logo%20UNICAEN%20V1-noir.png?itok=J3rUaLBD" width="40%" and height="40%"/>
 
 # Projet tutoré pour l'Université de Caen
 

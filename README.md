@@ -8,7 +8,7 @@ L'observatoire UNICAEN réalise des enquêtes sur les parcours de formation et l
 
 Le projet consisté à afficher sur une carte le lieu de travail des personnes diplômées d'un master et d'une licence de l'université de Caen en 2018. 
 
-Pour cela, l'observatoire UNICAEN nous a donné les réponses (sous format csv) d'une enquête d'insertion professionnelle qu'ils avaient envoyé aux diplômés. La difficulté principale de ce projet résidait dans le fait que les réponses étaient très hétérogènes et souvent soit erronées soit manquantes. Parmi ces données erronées, on retrouve le nom de la ville, du département et de l'entreprise dans lesquelles travaille les diplômés.
+Pour cela, l'observatoire UNICAEN nous a donné les réponses (sous format csv) d'une enquête d'insertion professionnelle qu'ils avaient envoyé aux diplômés. La difficulté principale de ce projet résidait dans le fait que les réponses étaient très hétérogènes et souvent soit erronées soit manquantes. Parmi ces données erronées, on retrouve le nom de la ville, du département et de l'entreprise dans lesquelles travaillent les diplômés.
 
 Pour afficher chaque diplômé sur une carte en fonction de la localisation de son lieu de travail, il fallait connaître la latitude et la longitude de chaque entreprise. Pour cela, nous avons trouvé sur le site de l'[INSEE](https://www.insee.fr/fr/information/3591226) le fichier de données SIRENE. Ce fichier regroupe de nombreuses informations sur chacune des entreprises de France. Les informations qui nous intéresse étaient le nom de chacune des entreprises ainsi que la ville et le département dans lesquelles elles étaient implantées. 
 
@@ -20,7 +20,7 @@ L'observatoire UNICAEN souhaitait aussi que l'on représente à l'aide de graphi
 
 Maintenant que l'on avait bien tous les noms de ville, de département et d'entreprise, il nous restait plus qu'à trouver les latitudes et la longitudes correspondantes. Pour cela, nous avons téléchargé sur le site [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/listes-des-communes-geolocalisees-par-regions-departements-circonscriptions-nd/) un fichier avec les latitudes et la longitudes de toutes les communes de France (identifiées par leur nom et celui de leur département). En utilisant à nouveau la distance de Levenshtein, nous avons pu maximiser le nombre des correspondances entre le fichier des communes et les données des diplômés précédemment corrigées.
 
-Enfin, nous avons représenté sur une carte au format html avec du code [JavaScript](https://leafletjs.com/) la grande majorité des lieux de travail des diplômés et le nom des l'entreprises correspondantes.
+Enfin, nous avons représenté sur une carte au format html avec du code [JavaScript](https://leafletjs.com/) la grande majorité des lieux de travail des diplômés et le nom des entreprises correspondantes.
 
 ### À noter
 
@@ -28,9 +28,9 @@ Nous avons inséré toutes les données dans une base de données relationnelle 
 
 # Code 
 
-Pour des raisons de confidentialité, les deux cartes (des diplômés de master et de licence) ne vous sont pas montrées. 
+Pour des raisons de confidentialité, les deux cartes (des diplômés de Master et de Licence) ne vous sont pas montrées. 
 
-En revanche, voici les codes python et sql utilisés dans ce projet :
+En revanche, voici les codes Python et SQL utilisés dans ce projet :
 
 * [DDL des tables SQL](https://github.com/ThibaultLanthiez/Projet-observatoire-UNICAEN/blob/main/Codes/DDL-SQL.sql)
 
